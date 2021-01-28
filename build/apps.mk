@@ -17,7 +17,7 @@ $(call inherit-product, vendor/proton/themes/themes.mk)
 # LineageOS apps
 PRODUCT_PACKAGES += \
     ExactCalculator \
-    Jelly \
+    Terminal
 
 # SystemUI plugins
 PRODUCT_PACKAGES += \
