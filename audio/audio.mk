@@ -1,4 +1,4 @@
-# Copyright (C) 2020 The Proton AOSP Project
+# Copyright (C) 2021 The Proton AOSP Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,10 +12,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Pixel APNs
 PRODUCT_COPY_FILES += \
-	vendor/proton/telephony/apns-full-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
-
-# Default ringtone
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.config.ringtone=TrustYou.ogg
+	vendor/proton/audio/ringtones/TrustYou.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/TrustYou.ogg
