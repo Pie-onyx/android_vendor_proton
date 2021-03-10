@@ -18,9 +18,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.biometrics.face.xml \
-    vendor/proton/permissions/hiddenapi-whitelist-co.aospa.facesense.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/hiddenapi-whitelist-co.aospa.facesense.xml \
-    vendor/proton/permissions/pa-default-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/pa-default-permissions.xml \
-    vendor/proton/permissions/privapp-permissions-co.aospa.facesense.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-co.aospa.facesense.xml
+    vendor/proton/permissions/pa-default-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/pa-default-permissions.xml
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.face.sense_service=true
